@@ -58,6 +58,7 @@ func main() {
 	}
 }
 
+// executablePath returns the path of the directory of the executable
 func executablePath() string {
 	ex, err := os.Executable()
 	if err != nil {
